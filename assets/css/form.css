@@ -12,7 +12,10 @@ header{
     border-bottom: white solid 5px;
 }
 
-
+.container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 circle {
     background-color: yellow; 
