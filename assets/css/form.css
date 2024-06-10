@@ -7,6 +7,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    background-color: yellow;
+    font-size: 200%;
 }
