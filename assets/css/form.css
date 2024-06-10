@@ -34,4 +34,7 @@ footer {
     height: 115px;
     font-size: 200%;
     border-top: white solid 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
