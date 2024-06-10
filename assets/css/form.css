@@ -1,5 +1,5 @@
 body{
-    background-color: orange;
+    background-color: orangered;
 }
 
 header{
@@ -15,7 +15,10 @@ header{
 .container {
     padding-top: 80px;
     padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
 }
+
 
 circle {
     background-color: yellow; 
@@ -27,6 +30,7 @@ circle {
     text-align: center;
     line-height: 300px;
     font-size: 200%;
+    
 }
 
 footer {
