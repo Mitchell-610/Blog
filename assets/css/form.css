@@ -4,5 +4,9 @@ body{
 
 header{
     height: 115px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
