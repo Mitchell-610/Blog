@@ -14,17 +14,17 @@ header{
 
 
 
-
-
-
-
-
-
+circle {
+    background-color: yellow; 
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+   
+}
 
 footer {
     background-color: yellow;
     height: 115px;
     font-size: 200%;
     border-top: white solid 5px;
-
 }
