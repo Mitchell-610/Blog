@@ -6,3 +6,7 @@ backBtn.addEventListener(`click`, function (event) {
 }
 );
 
+function myFunction() {
+    
+}
+
