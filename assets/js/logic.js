@@ -7,6 +7,10 @@ backBtn.addEventListener(`click`, function (event) {
 );
 
 function myFunction() {
-    
+    element = document.body;
+    element.toggle("dark-mode");
 }
 
+function myFunction() {
+
+}
