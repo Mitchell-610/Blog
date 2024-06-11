@@ -4,5 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const section = document.getElementById(`input`);
     const newLi = document.createElement(`li`);
     newLi.className = `blog-entry`;
-
+    newLi.textContent = blogEntries;
+    section.appendChild(newLi);
 });
