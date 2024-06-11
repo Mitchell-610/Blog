@@ -23,3 +23,4 @@ When youtake a closer look at a single blog entry in the list,
 You can see the title, the content, and the author of the post.
 When you view the footer,
 You are presented with a link to the developer's portfolio.
+https://mitchell-610.github.io/Blog/
