@@ -9,7 +9,12 @@ let blogs = [];
 //Save blog entry, to local storage, via submit button.
 submitBtn.addEventListener(`click`, function (event) {
     event.preventDefault();
-       
+        if (userName.value === `` || Title.value === `` || content.value === ``) {
+            alert(`Please fill out all forms, thank you.`);
+            console.log(`N/A`);
+            return;
+        }
+        
     }
 
 );
