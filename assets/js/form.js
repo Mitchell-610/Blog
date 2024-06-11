@@ -21,7 +21,9 @@ submitBtn.addEventListener(`click`, function (event) {
                 content: content.value
             };
             blogs.push(blog);
-
+            localStorage.setItem(`blog`, JSON.stringify(blog));
+            console.log(blog);
+            console.log(blogs);
             return;
         }
     }
