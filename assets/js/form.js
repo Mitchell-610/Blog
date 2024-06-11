@@ -6,4 +6,10 @@ const submitBtn = document.querySelector(`#Submit`);
 let blogs = [];
 
 
+//Save blog entry, to local storage, via submit button.
+submitBtn.addEventListener(`click`, function (event) {
+    event.preventDefault();
+       
+    }
 
+);
