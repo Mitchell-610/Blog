@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Blog</title>
 </head>
 
@@ -26,14 +28,14 @@
         </div>
         <div class="info">
             <h2>What's on your mind?</h2>
-            <form>
+            <form action="./index.html" id="blogEntry">
             <label for="Username">Username</label><br>
             <input type="text" id="Username"><br>
             <label for="Title">Title</label><br>
-            <input type="text" id="title"><br>
+            <input type="text" id="Title"><br>
             <label for="Content">Content</label><br>
             <input class="text" id="Content"><br>
-            <input type="submit" id="Submit">
+            <button type="submit" id="Submit">Submit</button>
             </form>
         </div>
     </section>
@@ -46,6 +48,10 @@
     <a>Mheit602@gmail.com</a>
     <a href="https://github.com/Mitchell-610">Github</a>
 </footer>
+
+<script src="./assets/js/form.js"></script>
+<script src="./assets/js/logic.js"></script>
+<script src="./assets/js/blog.js"></script>
 
 </body>
 </html>
