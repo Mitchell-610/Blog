@@ -15,7 +15,12 @@ submitBtn.addEventListener(`click`, function (event) {
             return;
         }
         else {
-           
+            let blog = {
+                userName: userName.value,
+                Title: Title.value,
+                content: content.value
+            };
+         
             return;
         }
     }
