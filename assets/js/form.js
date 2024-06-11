@@ -20,7 +20,8 @@ submitBtn.addEventListener(`click`, function (event) {
                 Title: Title.value,
                 content: content.value
             };
-         
+            blogs.push(blog);
+
             return;
         }
     }
