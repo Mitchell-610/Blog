@@ -3,5 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const blogEntries = localStorage.getItem('blog');
     const section = document.getElementById(`input`);
     const newLi = document.createElement(`li`);
-   
+    newLi.className = `blog-entry`;
+
 });
