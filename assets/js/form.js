@@ -14,7 +14,10 @@ submitBtn.addEventListener(`click`, function (event) {
             console.log(`N/A`);
             return;
         }
-        
+        else {
+           
+            return;
+        }
     }
 
 );
