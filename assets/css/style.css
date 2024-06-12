@@ -1,20 +1,21 @@
-.dark-mode {
+.dark-mode body {
     background-color: black;
     color: turquoise;
 }
 
-.dark-mode{
+.dark-mode header{
     background-color: turquoise;
     color: black;
 }
 
-.dark-mode{
+.dark-mode .circle{
     background-color: turquoise;
 }
 
 
-.dark-mode{
+.dark-mode footer{
     background-color: turquoise;
+    color: black;
 }
 
 .blog-entry {

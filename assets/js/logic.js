@@ -1,5 +1,4 @@
 const backBtn = document.querySelector(`#back`);
-
 backBtn.addEventListener(`click`, function (event) {
     event.preventDefault();
     window.location.href = `index.html`;
@@ -7,10 +6,8 @@ backBtn.addEventListener(`click`, function (event) {
 );
 
 function myFunction() {
-    element = document.body;
-    element.toggle("dark-mode");
+    var element = document.body;
+    element.classList.toggle("dark-mode");
 }
+    
 
-function myFunction() {
-
-}
