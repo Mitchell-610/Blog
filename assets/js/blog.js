@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const usernameElement = document.createElement('span');
     usernameElement.textContent = parsedEntries.userName;
 
-    const titleLabel = document.createElement('h2');
+    const titleLabel = document.createElement('p');
     titleLabel.textContent = "Title: ";
-    const titleElement = document.createElement('h2');
+    const titleElement = document.createElement('p');
     titleElement.textContent = parsedEntries.Title;
 
     const contentLabel = document.createElement('p');
@@ -26,10 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Append the elements to the new list item
     newLi.appendChild(usernameLabel);
     newLi.appendChild(usernameElement);
-    newLi.appendChild(document.createElement('br')); // Add line break for formatting
     newLi.appendChild(titleLabel);
     newLi.appendChild(titleElement);
-    newLi.appendChild(document.createElement('br')); // Add line break for formatting
     newLi.appendChild(contentLabel);
     newLi.appendChild(contentElement);
 

@@ -25,5 +25,10 @@
     border: 5px solid white;
     text-align: center;
     overflow-y: auto;
-    max-height: 300px;
+    max-height: 180px;
+    margin: 0;
+}
+
+.blog-entry p {
+    margin: 0%;
 }
