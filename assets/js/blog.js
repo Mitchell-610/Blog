@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const section = document.getElementById(`input`);
     const newLi = document.createElement(`li`);
     newLi.className = `blog-entry`;
-    newLi.textContent = blogEntries;
+
+
+    const parsedEntries = JSON.parse(blogEntries);
+    const entryText = `${parsedEntries.userName}: ${parsedEntries.Title} - ${parsedEntries.content}`;
+    newLi.textContent = entryText;
     section.appendChild(newLi);
+
+
+    //newLi.textContent = blogEntries;
+    //section.appendChild(newLi);
 });
