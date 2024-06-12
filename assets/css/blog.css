@@ -29,8 +29,13 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+   bottom: auto;
 }
+
+@media screen and (max-width: 1310px) {
+    footer {
+      display: grid;
+      height: auto;
+
+    }
+  }
