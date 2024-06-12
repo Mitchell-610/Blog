@@ -1,4 +1,4 @@
-.dark-mode body {
+.dark-mode main {
     background-color: black;
     color: turquoise;
 }
@@ -8,8 +8,9 @@
     color: black;
 }
 
-.dark-mode .circle{
+.dark-mode circle{
     background-color: turquoise;
+    color: black;
 }
 
 
@@ -28,6 +29,10 @@
     overflow-y: auto;
     max-height: 180px;
     margin: 0;
+}
+
+#input {
+    padding: 0;
 }
 
 .blog-entry p {
