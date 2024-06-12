@@ -8,6 +8,10 @@
     color: black;
 }
 
+.dark-mode #emoji {
+    content: '&#127770';
+}
+
 .dark-mode circle{
     background-color: turquoise;
     color: black;
